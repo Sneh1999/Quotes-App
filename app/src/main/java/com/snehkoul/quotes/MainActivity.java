@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         quoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                QuoteServer quoteServer = new QuoteServer();
+
+                quoteTextView.setText(quoteServer.getRandomQuote());
                 System.out.println("Hello");
             }
         });
