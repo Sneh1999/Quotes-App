@@ -9,7 +9,7 @@ public class QuoteServer {
 
     String[] getQuotes() {
         String[] quotes = new String[]{
-                "Hi", "Hello", "Bye"
+                "Create the highest, grandest vision possible for your life, because you become what you believe","When you can’t find the sunshine, be the sunshine","The grass is greener where you water it","Wherever life plants you, bloom with grace"
         };
 
        return quotes;
